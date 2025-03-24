@@ -1,0 +1,92 @@
+h1 {
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(249, 255, 255, 0.63);
+    color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 6px 0px #ffffff00
+}
+
+form {
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-size: 200%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    padding: 5px;
+   text-align: center;
+   position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 250, 250);
+    font-size: large;
+}
+
+p {
+    padding: 20px;
+    font-size: 25px;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(consultorio-medico.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   justify-content: center;
+
+}
+
+#mensagemConfirmar {
+    padding-bottom: 20px;
+    padding-inline: 10px;
+    margin: 20px;
+    height: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    opacity: 1.0;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border: 2px solid #000000;
+}
+
+#sintomaForm {
+    text-align: center;
+    background-color: #006d6d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+select {
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ec4a0a; 
+}
